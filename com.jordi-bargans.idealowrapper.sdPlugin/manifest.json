@@ -1,0 +1,51 @@
+{
+	"Name": "IdealoWrapper",
+	"Version": "0.1.0.0",
+	"Author": "Jordi Bargans",
+	"Actions": [
+		{
+			"Name": "Producto Idealo",
+			"UUID": "com.jordi-bargans.idealowrapper.product",
+			"Icon": "imgs/actions/counter/icon",
+			"Tooltip": "Muestra la foto y el precio de un producto de Idealo",
+			"PropertyInspectorPath": "ui/product.html",
+			"Controllers": [
+				"Keypad"
+			],
+			"States": [
+				{
+					"Image": "imgs/actions/counter/key",
+					"ShowTitle": true,
+					"TitleAlignment": "bottom",
+					"TitleColor": "#111111",
+					"FontStyle": "Bold",
+					"FontSize": 12
+				}
+			]
+		}
+	],
+	"Category": "IdealoWrapper",
+	"CategoryIcon": "imgs/plugin/category-icon",
+	"CodePath": "bin/plugin.js",
+	"Description": "follow prices for the idealo products",
+	"Icon": "imgs/plugin/marketplace",
+	"SDKVersion": 3,
+	"Software": {
+		"MinimumVersion": "7.1"
+	},
+	"OS": [
+		{
+			"Platform": "mac",
+			"MinimumVersion": "12"
+		},
+		{
+			"Platform": "windows",
+			"MinimumVersion": "10"
+		}
+	],
+	"Nodejs": {
+		"Version": "24",
+		"Debug": "enabled"
+	},
+	"UUID": "com.jordi-bargans.idealowrapper"
+}
